@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TreeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('index', [TreeController::class, 'index']);
+Route::get('create', [TreeController::class, 'create']);
+Route::post('store', [TreeController::class, 'store']);
+
+
+
+

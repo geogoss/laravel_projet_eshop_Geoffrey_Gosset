@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -47,12 +47,12 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="/">Welcome</a>
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="/index">Home</a>
                             <a class="nav-link" href="#">Catégories</a>
                             <a class="nav-link" href="#">18+</a>
                             <a class="nav-link" href="#">Contact</a>
                             <a class="nav-link" href="#">Détail</a>
-                            <a class="nav-link" href="#">Admin</a>
+                            <a class="nav-link" href="/create">NewEssence</a>
                         </div>
                     </div>
                 </div>
