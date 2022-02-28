@@ -48,7 +48,7 @@
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="/">Welcome</a>
                             <a class="nav-link" href="/index">Home</a>
-                            <a class="nav-link" href="#">Catégories</a>
+                            <a class="nav-link" href="/categorie">Catégories</a>
                             <a class="nav-link" href="#">18+</a>
                             <a class="nav-link" href="#">Contact</a>
                             <a class="nav-link" href="/create">NewEssence</a>

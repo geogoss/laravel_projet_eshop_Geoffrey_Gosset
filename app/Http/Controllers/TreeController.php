@@ -40,4 +40,10 @@ class TreeController extends Controller
         return view('pages.show', compact('show'));
     }
 
+    public function categorie () {
+        return view('pages.categorie');
+    }
+
+
+
 }

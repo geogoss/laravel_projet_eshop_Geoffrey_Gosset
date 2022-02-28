@@ -1,6 +1,6 @@
 <section class="w-50 mx-auto mb-5">
     <h1 class="text-center my-5"><a class="text-decoration-none text-dark  " href="/index">Découvrir le site 👉</a></h1>
-    <div class="bg-info py-5">
+    <div class="bg-primary py-5">
         <h1 class="text-center text-white">Administrateur</h1>
        
         <form class="w-75 mx-auto" action="/store" method="POST">
@@ -25,7 +25,7 @@
               <input name="check" type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Entrer</button>
           </form>
 
     </div>
