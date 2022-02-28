@@ -21,6 +21,7 @@ return new class extends Migration
             $table->integer('maxLenger');
             $table->integer('price');
             $table->string('type');
+            $table->string('url');
             $table->timestamps();
         });
     }

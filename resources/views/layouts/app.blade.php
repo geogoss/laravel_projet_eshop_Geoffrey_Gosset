@@ -51,7 +51,6 @@
                             <a class="nav-link" href="#">Catégories</a>
                             <a class="nav-link" href="#">18+</a>
                             <a class="nav-link" href="#">Contact</a>
-                            <a class="nav-link" href="#">Détail</a>
                             <a class="nav-link" href="/create">NewEssence</a>
                         </div>
                     </div>

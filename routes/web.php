@@ -18,10 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index', [TreeController::class, 'index']);
-Route::get('create', [TreeController::class, 'create']);
-Route::post('store', [TreeController::class, 'store']);
-
+Route::get('/index', [TreeController::class, 'index']);
+Route::get('/create', [TreeController::class, 'create']);
+Route::get('/show/{id}', [TreeController::class, 'show']);
+Route::post('/store', [TreeController::class, 'store']);
+Route::delete('/delete/{id}', [TreeController::class, 'destroy']);
 
 
 
