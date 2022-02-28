@@ -1,6 +1,6 @@
-<section class="d-flex flex-wrap">
+<section class="d-flex flex-wrap d-flex justify-content-evenly">
     @foreach ($trees as $item)
-        <div class="card m-5" style="width: 18rem;">
+        <div class="card m-3" style="width: 18rem;">
             <img src="{{ $item->url }} " class="card-img-top" alt="...">
             <div class="card-header">
                 <h5 class="card-title">{{ $item->name }} </h5>

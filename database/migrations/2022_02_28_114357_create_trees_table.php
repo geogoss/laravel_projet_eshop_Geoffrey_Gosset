@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('latin');
             $table->integer('minLenger');
             $table->integer('maxLenger');
-            $table->integer('price');
+            $table->float('price');
             $table->string('type');
             $table->string('url');
             $table->timestamps();

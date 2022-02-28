@@ -23,7 +23,7 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Prix</label>
-              <input name="price" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input name="price" type="number" step="0.01"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Type</label>

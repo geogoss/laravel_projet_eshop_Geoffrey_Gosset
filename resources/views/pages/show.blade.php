@@ -14,5 +14,15 @@
         <span>Prix : {{$show->price}} €</span>
     </div>
   </div>
+  <div class="d-flex justify-content-between">
+    <form action="/delete/{{ $show->id }}" method="POST">
+        @csrf
+        @method('DELETE')
+        <button type="submit" class="btn btn-danger">Supprimer</button>
+    </form>
+    <button class="btn btn-success w-25 mx-auto"><a class="text-decoration-none text-white"
+            href="/show/{{ $show->id }} ">Détails</a></button>
+</div>
+
 
 @endsection

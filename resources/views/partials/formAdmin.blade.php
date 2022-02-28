@@ -1,5 +1,5 @@
 <section class="w-50 mx-auto mb-5">
-    <h1 class="text-center my-5"><a class="text-decoration-none text-dark  " href="/home">Découvrir le site 👉</a></h1>
+    <h1 class="text-center my-5"><a class="text-decoration-none text-dark  " href="/index">Découvrir le site 👉</a></h1>
     <div class="bg-info py-5">
         <h1 class="text-center text-white">Administrateur</h1>
        
