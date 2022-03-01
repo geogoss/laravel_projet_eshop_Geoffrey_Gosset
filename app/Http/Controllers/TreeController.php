@@ -44,6 +44,18 @@ class TreeController extends Controller
         return view('pages.categorie');
     }
 
+    public function arbre () {
+        $arbres = Tree::where('type', '=', 'arbre')->get();
+        return view('pages.arbre', compact('arbres'));
+    }
+    public function arbuste () {
+        $arbustes = Tree::where('type', '=', 'arbuste')->get();
+        return view('pages.arbuste', compact('arbustes'));
+    }
+    public function fruitier () {
+        $fruitiers = Tree::where('type', '=', 'fruitier')->get();
+        return view('pages.fruitier', compact('fruitiers'));
+    }
 
 
 }
