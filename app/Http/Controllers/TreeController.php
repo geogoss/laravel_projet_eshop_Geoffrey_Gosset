@@ -29,6 +29,27 @@ class TreeController extends Controller
         return redirect()->back();
     }
 
+    public function edit($id){
+        $edit = Tree::find($id);
+
+        return view('pages.edit', compact('edit'));
+
+    }
+
+    public function update ($store, Request $request, $id) {
+        $store->name = $request->name;
+        $store->latin = $request->latin;
+        $store->minLenger = $request->minLenger;
+        $store->maxLenger = $request->maxLenger;
+        $store->price = $request->price;
+        $store->type = $request->type;
+        $store->url = $request->url;
+        $store->save();
+        return redirect()->back();
+    }
+
+
+
     public function destroy ($id) {
         $delete = Tree::find($id);
         $delete->delete();

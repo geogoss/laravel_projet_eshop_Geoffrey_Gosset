@@ -22,12 +22,12 @@
             </div>
             <div class="d-flex justify-content-around align-items-center w-50">
                 <div class="bg-success text-white">
-                    <i class="far fa-user-circle"></i>
-                    <button>Mon Compte</button>
+                    <i class="far fa-user-circle px-2"></i>
+                    <button class="btn btn-light">Mon Compte</button>
                 </div>
                 <div class="bg-success text-white">
-                    <i class="fas fa-shopping-basket"></i>
-                    <button>Panier</button>
+                    <i class="fas fa-shopping-basket px-2"></i>
+                    <button class="btn btn-light">Panier</button>
                 </div>
                 <div class="langue">
                     <span><span class='text-white'>FR</span> / <span>EN</span> / <span>NL</span></span>
