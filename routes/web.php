@@ -24,7 +24,7 @@ Route::get('/edit/{id}', [TreeController::class, 'edit']);
 Route::get('/show/{id}', [TreeController::class, 'show']);
 Route::post('/store', [TreeController::class, 'store']);
 
-Route::put('/update/{id}', [TreeController::class, 'update']);
+Route::post('/update/{id}', [TreeController::class, 'update']);
 
 Route::delete('/delete/{id}', [TreeController::class, 'destroy']);
 

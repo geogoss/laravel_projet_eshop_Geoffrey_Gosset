@@ -31,7 +31,6 @@ class TreeController extends Controller
 
     public function edit($id){
         $edit = Tree::find($id);
-
         return view('pages.edit', compact('edit'));
 
     }
@@ -47,7 +46,7 @@ class TreeController extends Controller
         $update->type = $request->type;
         $update->url = $request->url;
         $update->save();
-        return redirect("/");
+        return redirect()->back();
     }
 
 
