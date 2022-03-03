@@ -36,16 +36,18 @@ class TreeController extends Controller
 
     }
 
-    public function update ($store, Request $request, $id) {
-        $store->name = $request->name;
-        $store->latin = $request->latin;
-        $store->minLenger = $request->minLenger;
-        $store->maxLenger = $request->maxLenger;
-        $store->price = $request->price;
-        $store->type = $request->type;
-        $store->url = $request->url;
-        $store->save();
-        return redirect()->back();
+
+    public function update ($id, Request $request) {
+        $update = Tree::find($id);
+        $update->name = $request->name;
+        $update->latin = $request->latin;
+        $update->minLenger = $request->minLenger;
+        $update->maxLenger = $request->maxLenger;
+        $update->price = $request->price;
+        $update->type = $request->type;
+        $update->url = $request->url;
+        $update->save();
+        return redirect("/");
     }
 
 

@@ -24,8 +24,7 @@ Route::get('/edit/{id}', [TreeController::class, 'edit']);
 Route::get('/show/{id}', [TreeController::class, 'show']);
 Route::post('/store', [TreeController::class, 'store']);
 
-Route::put('/edit/{id}', [TreeController::class, 'update']);
-
+Route::put('/update/{id}', [TreeController::class, 'update']);
 
 Route::delete('/delete/{id}', [TreeController::class, 'destroy']);
 
@@ -33,3 +32,4 @@ Route::get('/categorie', [TreeController::class, 'categorie']);
 Route::get('/arbre', [TreeController::class, 'arbre']);
 Route::get('/arbuste', [TreeController::class, 'arbuste']);
 Route::get('/fruitier', [TreeController::class, 'fruitier']);
+
