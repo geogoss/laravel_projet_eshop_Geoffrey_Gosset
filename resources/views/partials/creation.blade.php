@@ -12,6 +12,7 @@
             </div>
             <div class="card-footer d-flex justify-content-between">
                 <span>Prix : {{ $item->price }} €</span>
+                <button class="btn btn-secondary text-white"><i class="fas fa-shopping-cart"> </i></button>
             </div>
             <div class="d-flex justify-content-between">
                 <form action="/delete/{{ $item->id }}" method="POST">
