@@ -32,4 +32,6 @@ Route::get('/categorie', [TreeController::class, 'categorie']);
 Route::get('/arbre', [TreeController::class, 'arbre']);
 Route::get('/arbuste', [TreeController::class, 'arbuste']);
 Route::get('/fruitier', [TreeController::class, 'fruitier']);
+Route::get('/prix', [TreeController::class, 'prix']);
+Route::get('/prix/classement', [TreeController::class, 'classement']);
 

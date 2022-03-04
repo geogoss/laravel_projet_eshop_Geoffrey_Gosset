@@ -1,3 +1,10 @@
+<div class="d-flex justify-content-around my-5">
+    <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/arbre">Arbres</a></button>
+    <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/arbuste">Arbustes</a></button>
+    <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/fruitier">Fruitiers</a></button>
+    <button class="btn btn-primary border border-dark p-3"><a class="text-decoration-none text-white" href="/prix">Prix</a></button>
+</div>
+<h1 class="text-center m-5">Les arbustes</h1>
 <section class="d-flex flex-wrap d-flex justify-content-evenly">
     @foreach ($arbustes as $item)
         <div class="card m-3" style="width: 18rem;">

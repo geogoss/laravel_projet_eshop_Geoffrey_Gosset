@@ -4,5 +4,6 @@
         <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/arbre">Arbres</a></button>
         <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/arbuste">Arbustes</a></button>
         <button class="btn btn-success border border-dark p-3"><a class="text-decoration-none text-white" href="/fruitier">Fruitiers</a></button>
+        <button class="btn btn-primary border border-dark p-3"><a class="text-decoration-none text-white" href="/prix">Prix</a></button>
     </div>
 @endsection

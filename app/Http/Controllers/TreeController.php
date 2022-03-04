@@ -78,6 +78,17 @@ class TreeController extends Controller
         $fruitiers = Tree::where('type', '=', 'fruitier')->get();
         return view('pages.fruitier', compact('fruitiers'));
     }
+    public function prix () {
+        $prix = Tree::all();
+        return view('pages.prix', compact('prix'));
+    }
+    public function classement () {
+        $prix = Tree::all();
+        $cdtpluscher = Tree::whereBetween('price', ['20', '40'])->get();
+        $cdtnormal = Tree::whereBetween('price', ['10', '20'])->get();
+        $cdtmoinscher = Tree::whereBetween('price', ['0', '10'])->get();
+        return view('pages.prixClassement', compact('prix', 'cdtpluscher', 'cdtmoinscher', 'cdtnormal'));
+    }
 
 
 }
